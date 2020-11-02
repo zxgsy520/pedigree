@@ -17,6 +17,6 @@ Latest updates
 Result display
 ------------
 <p align="center">
-  <img src="docs/group_type.png" width = "300" height = "200"　alt="Group type"/>
-  <img src="docs/flower.group_type.png" width = "300" height = "200" alt="flower group type"/>
+  <img src="docs/group_type.png" width = "400" height = "300"　alt="Group type"/>
+  <img src="docs/flower.group_type.png" width = "300" height = "300" alt="flower group type"/>
 </p>
