@@ -1,6 +1,6 @@
 Pedigree
 ==============
-### Version: 1.0.0
+### Version: 1.0.1
 Perform pan-genome, gene family, evolutionary tree, and common and unique gene analysis.
 Manuals
 -------
@@ -10,7 +10,7 @@ Manuals
 Latest updates
 --------------
 
-### Pedigree 1.0.0 release (02 Nov 2020)
+### Pedigree 1.0.1 release (24 Feb 2021)
 *Follow-up processing on the results of [OrthoFinder](https://github.com/davidemms/OrthoFinder) analysis
 
 
