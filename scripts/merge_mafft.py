@@ -43,7 +43,7 @@ def read_fasta(file):
         else:
             seq.append(line)
 
-    if seq == 2:
+    if len(seq) == 2:
         yield seq
     fp.close()
 
@@ -52,9 +52,16 @@ def merge_mafft(files):
 
     data = {}
     for file in files:
+        temp = []
         for seqid, seq in read_fasta(file):
             seqid = seqid.split("|")[0]
             seq = seq.replace(" ", "").upper()
+
+            if seqid in temp:
+                LOG.info("Sample %s has a repeated sequence, skip it when merging" % seqid)
+                continue
+            temp.append(seqid)
+
             if seqid not in data:
                 data[seqid] = ""
             data[seqid] += seq
